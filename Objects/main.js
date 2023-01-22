@@ -40,3 +40,12 @@ else {
 
 
 //The condition for the if, and the name Ben should both be read from the object using dot notation.
+let desiredPleasantry = "greeting";
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+desiredPleasantry = bensPhrases["greeting"]
+console.log(desiredPleasantry)
