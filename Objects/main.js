@@ -57,11 +57,27 @@ Keira = "Actually, she's just alright"
 //Reassing (again)
 Keira = "She's doing her best, don't be harsh"
 
-//Task 5
+//Task 4
 let me = {
     firstName: "firstName",
     lastName: "lastName",
     isBootcamper: false,
 };
 
-me.isBootcamper = true
+me.isBootcamper = true 
+
+let communication = {
+    success: true,
+    payload: {
+      message: {
+        text: "Please send biscuits!",
+        priority: "URCHIN",
+      },
+    },
+  };
+
+  let text1 = communication.payload.message.text
+
+if (communication.payload.message.priority === "URGENT"){
+    console.log(text1)  
+} 
