@@ -49,3 +49,19 @@ let bensPhrases = {
 };
 desiredPleasantry = bensPhrases["greeting"]
 console.log(desiredPleasantry)
+
+//Assigning
+let Keira = "A great person"
+//Reassigning
+Keira = "Actually, she's just alright"
+//Reassing (again)
+Keira = "She's doing her best, don't be harsh"
+
+//Task 5
+let me = {
+    firstName: "firstName",
+    lastName: "lastName",
+    isBootcamper: false,
+};
+
+me.isBootcamper = true
